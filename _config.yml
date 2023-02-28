@@ -12,13 +12,13 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "dirt" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "ko-KR"
 title                    : "thinklet"
 title_separator          : "|"
-subtitle                 : "In learning science examples are of more use than precepts" # site tagline that appears below site title in masthead
+subtitle                 : "In learning sciences examples are of more use than precepts" # site tagline that appears below site title in masthead
 name                     : "Sangwon"
 description              : "An amazing website."
 url                      : "https://sangwon-shin.github.io"
