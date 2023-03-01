@@ -17,12 +17,11 @@ use_math: true
 \\[ V_E = -\frac{\Delta \Phi}{\Delta t} \\]
 
 $V_E$는 퍼텐셜이라고 하지만, 전자기장의 변화가 없는 특수한 상황에서만 맞는 말이다. 
-이런 특수한 상황이 아닌, 전자기장이 시간에 따라 변하는 일반적인 상황에서 미분 형태의 패러데이 법칙은 아래와 같다.
+이런 특수한 상황이 아닌, 전자기장이 시간에 따라 변하는 일반적인 상황에서 미분 형태의 패러데이 법칙은 아래와 같다.($\mathbf{A}$는 벡터 퍼텐셜)
 
 \\[ \nabla\times\mathbf{E} = -\frac{\partial\mathbf{B}}{\partial t} = -\nabla\times\frac{\partial\mathbf{A}}{\partial t} \\]
 \\[ \nabla\times\left(\mathbf{E}+\frac{\partial\mathbf{A}}{\partial t}\right) \\]
 
-($\mathbf{A}$: 벡터 퍼텐셜)
 그러므로 $\mathbf{E}$만으로는 시간에 불변인 퍼텐셜 $V$를 만들 수 없고 $\frac{\partial\mathbf{A}}{\partial t}$를 포함한 양이어야 퍼텐셜 $V$를 정의할 수 있다.
 
 \\[ \mathbf{E} + \frac{\partial\mathbf{A}}{\partial t} = -\nabla V \\]
@@ -31,7 +30,7 @@ $V_E$는 퍼텐셜이라고 하지만, 전자기장의 변화가 없는 특수�
 
 \\[ \int_a^b \mathbf{E}\cdot d\mathbf{l} + \int_a^b \frac{\partial\mathbf{A}}{\partial t}\cdot d\mathbf{l} = -[V(b) - V(a)] \\]
 
-공간적으로 균일한 자기장이 $z$ 방향으로 있을 때, 시간에 따라 자기장의 크기가 커지는 상황에서의 패러데이의 법칙을 생각해보자.
+자기장 $\mathbf{B}$가 공간적으로 균일하고 시간에 따라서는 $z$ 방향으로 커지는 상황에서의 패러데이 법칙을 생각해보자.
 
 \\[ \mathbf{B} = kt\hat{z} \quad\to\quad \mathbf{A} = \frac{1}{2}kst\hat{\theta} \\]
 
@@ -39,7 +38,7 @@ $k$는 0보다 큰 상수, $s$는 원통좌표계에서의 반지름이다. 패�
 
 \\[ \mathbf{E} = -\frac{1}{2}ks\hat{\theta} \\]
 
-전기장과 벡터 퍼텐셜의 방향이 반대이다. 그러므로 전기장과 벡터 퍼텐셜의 시간 미분을 원형 궤도 위의 호에 대해 선적분한 값을 계산해보면 크기가 같고 부호가 반대가 되어 상쇄된다. 따라서 원 위의 모든 지점에서 퍼텐셜 $V$ 값은 같다.
+전기장과 벡터 퍼텐셜의 방향이 반대이다. 그러므로 전기장과 벡터 퍼텐셜의 시간 미분을 원형 궤도 위의 호에 대해 선적분해보면 크기 같고 부호가 반대가 되어 상쇄된다. 따라서 원위의 모든 지점에서 퍼텐셜 $V$값은 같다.
 
 \\[ V(a) = V(b) \\]
 
@@ -60,4 +59,4 @@ $k$는 0보다 큰 상수, $s$는 원통좌표계에서의 반지름이다. 패�
 이다. 그러면 자기장의 변화에 의해 유도된 전기장만 있을 때의 퍼텐셜은 모든 공간에서 일정하다.
 
 \\[ \int_a^b\mathbf{E}\cdot d\mathbf{l} + \int_a^b\frac{\partial\mathbf{A}}{\partial t}\cdot d\mathbf{l} = 0 = -[V(b) - V(a)] \\]
-\\[ \therefore V(a) = V(b) \\]
+\\[ \therefore~ V(a) = V(b) \\]
