@@ -4,6 +4,7 @@ title: "EMF and potential"
 categories: physics
 tag: [EMF, potential, faraday's law, 패러데이, 퍼텐셜]
 toc: true
+toc_sticky: true
 author_profile: false
 use_math: true
 ---
